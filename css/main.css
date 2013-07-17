@@ -1,11 +1,11 @@
 p{
     color: black;
+body
+{
+background-image:url("../images/dybackground.jpg");
+background-color:#cccccc;
 }
-ul {
-  
-}
-li { 
-  
+
 }
 h1,h2{
   text-shadow: 4px 4px 8px #000000;
