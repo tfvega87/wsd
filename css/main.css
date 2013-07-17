@@ -4,6 +4,8 @@ p{
 body{
 background-image:url('../images/dyback.jpg');
 background-color:#cccccc;
+background-repeat:no-repeat;
+background-attachment:fixed; 
 }
 
 
