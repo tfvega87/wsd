@@ -1,12 +1,12 @@
 p{
     color: black;
-body
-{
-background-image:url("../images/dybackground.jpg");
+    
+body{
+background-image:url("../images/dyback.jpg");
 background-color:#cccccc;
 }
 
-}
+
 h1,h2{
   text-shadow: 4px 4px 8px #000000;
 }
