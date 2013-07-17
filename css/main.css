@@ -1,8 +1,8 @@
 p{
     color: black;
-    
+ }   
 body{
-background-image:url("../images/dyback.jpg");
+background-image:url('../images/dyback.jpg');
 background-color:#cccccc;
 }
 
