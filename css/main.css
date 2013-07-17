@@ -1,8 +1,14 @@
 p{
     color: red;
 }
-  h1,h2,h3{
-  font-family: 'Expletus Sans', cursive;
-  margin:0;
-  padding: 15px 20px 0;
-}
+	  h1,h2,h3{
+	  font-family: 'Expletus Sans', cursive;
+	  margin:0;
+	  padding: 15px 20px 0;
+	}
+	p{
+	 text-indent: 30px;
+	 font-size: 14px;
+	 font-family: 'Strait', cursive;
+	 margin:0 20px;
+	 }
