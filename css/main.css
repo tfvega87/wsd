@@ -1,5 +1,5 @@
 p{
-    color: black;
+    color: #66CCFF;
  }   
 body{
 background-image:url('../images/dyback.jpg');
@@ -7,6 +7,7 @@ background-color:#cccccc;
 background-repeat:no-repeat;
 background-attachment:fixed; 
 }
+
 
 
 h1,h2{
