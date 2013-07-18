@@ -1,20 +1,54 @@
-article,section,footer,aside,header {
-	display:block;
-}
-p{
-    color: #66CCFF;
- }   
-body{
-background-image:url('../images/dyback.jpg');
-background-color:#cccccc;
-background-repeat:no-repeat;
-background-attachment:fixed; 
+h6 {
+  margin:0;
 }
 
+body {
+  background-image:url('../images/dyback.jpg');
+  background-color:#fff;
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-position: top center;
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 
-
+ul {
+  list-style:none;
+  overflow: hidden;
+  margin: 0;
+}
+p {
+    /* color: #66CCFF; */
+ } 
+nav ul li {
+  float:left;
+  margin-right:4px;
+  font-size: 15px;
+}
+nav li a {
+  border-radius: 6px;
+  background: #000 url('../images/gradient.png') repeat-x top left;
+  display:block;
+  width: auto;
+  padding: 6px 10px 6px 10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+}
+nav a:hover, nav a:active {
+  background: #000 url('../images/gradient-hover.png') repeat-x top left;
+  color:#1661c8;
+}
+a {
+  color:#1661c8;
+}
+a:hover, a:active {
+  color:#000;
+}
 h1,h2{
-  text-shadow: 4px 4px 8px #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.48);
+  color: #000000;
 }
 
   h1,h2,h3{
@@ -28,20 +62,43 @@ margin-bottom:0;
 padding-bottom:15px;
 }
 
-p{
+  section {
+    background: #fff;
+    margin-top: 6px;
+    padding: 5px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+ }
+ section p {
  text-indent: 30px;
  font-size: 14px;
  font-family: 'Roboto', sans-serif;
- margin:0 20px;
-
- }
- .grid {
+ margin:10px 20px;
 	float:left;
 	display:block;
-	width:300px;
+	width: 270px;
+ }
+ .gallery, .discography, .subscription {
+  background:#fff;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
  }
  .gallery li {
- 	float: left;
+ 	  float: left;
+    padding: 5px;
  	}
- 	
+ 
+ aside ul {
+  list-style: circle;
+ }
+ #footer {
+  background: rgba(56, 51, 45, 0.98);
+  padding: 8px;
+  color: #fff;
+  letter-spacing:1px;
+  margin-top: 14px;
+  overflow: hidden;
+  width: 100%;
+
+ }
  	
