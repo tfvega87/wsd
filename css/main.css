@@ -18,6 +18,7 @@ ul {
   overflow: hidden;
   margin: 0;
 }
+p.big {line-height:130%;}
 p {
     /* color: #66CCFF; */
  } 
