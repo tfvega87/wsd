@@ -24,7 +24,7 @@ p {
  } 
 nav ul li {
   float:left;
-  margin-right:4px;
+  margin-right:0.50%; /* 4px */
   font-size: 0.9375em; /* 15px */;
 }
 nav li a {
@@ -32,7 +32,7 @@ nav li a {
   background: #000 url('../images/gradient.png') repeat-x top left;
   display:block;
   width: auto;
-  padding: 6px 10px 6px 10px;
+  padding:6px 10px 6px 10px;
   text-align:center;
   text-decoration:none;
   color:#fff;
@@ -89,6 +89,10 @@ padding-bottom:15px;
     padding: 8px;
     border:2px solid #C0C0C0;
     display:inline;
+    
+ 	}
+ 	img{
+ 	max-width:100%;
  	}
  
  aside ul {
@@ -104,4 +108,14 @@ padding-bottom:15px;
   width: 100%;
 
  }
- 	
+ 	/* Media Queries */
+ 
+ /* Tablet portrait size */
+ 	@media screen and (min-width: 768px) and (max-width: 959px){
+ 	}
+ /* Mobile Landscape */	
+ 	@media only screen and (min-width: 480px) and (max-width: 787px){
+ 	}
+ /* Mobile Portrait */ 	
+ 	@media screen and (max-width: 479px){
+ 	}
