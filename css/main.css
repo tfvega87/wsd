@@ -108,6 +108,10 @@ padding-bottom:15px;
   width: 100%;
 
  }
+ td{
+     border: 1px #0000;
+}     
+     
  	/* Media Queries */
  
  /* Tablet portrait size */
