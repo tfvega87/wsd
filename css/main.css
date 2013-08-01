@@ -108,8 +108,12 @@ padding-bottom:15px;
   width: 100%;
 
  }
+ table {
+     border-collapse: collapse;
+}     
  td {
-     border: 1px #000000;
+     border: 1px solid black;
+     
 }     
      
  	/* Media Queries */
