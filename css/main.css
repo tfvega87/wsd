@@ -111,6 +111,7 @@ padding-bottom:15px;
  table {
      border-collapse: collapse;
      border: 1px solid black;
+     margin-top:14px;
 }     
  td {
      border: 1px solid black;
@@ -126,7 +127,75 @@ padding-bottom:15px;
      color:DeepSkyBlue;
      padding: 0.3em;
      
- }   
+ }  
+ 
+ 
+
+p, h3, h5, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:400px;
+padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+}
+
+h3{
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+color:#666666;
+}
+
+h5{
+font-size:12px;
+margin:10;
+text-align:left;
+}
+
+p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+
+label{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color: LightSteelBlue;
+display:block;
+font-weight:bold;
+text-align:left;
+width:140px;
+}
+
+input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+}
+
+button{
+  border-radius: 6px;
+  background: #000 url('../images/gradient.png') repeat-x top left;
+  display:block;
+  width: auto;
+  padding:6px 10px 6px 10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+}
+
      
  	/* Media Queries */
  
