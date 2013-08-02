@@ -133,14 +133,14 @@ padding-bottom:15px;
 
 p, h3, h5, form, button{border:0; margin:0; padding:0;}
 .spacer{clear:both; height:1px;}
-/* ----------- My Form ----------- */
+
 .myform{
 margin:0 auto;
 width:400px;
 padding:14px;
 }
 
-/* ----------- stylized ----------- */
+
 #stylized{
 border:solid 2px #b7ddf2;
 background:#ebf4fb;
@@ -155,7 +155,7 @@ color:#666666;
 
 h5{
 font-size:12px;
-margin:10;
+margin:10px;
 text-align:left;
 }
 
